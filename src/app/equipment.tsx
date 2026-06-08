@@ -11,7 +11,6 @@ import { Camera, CameraView } from 'expo-camera';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useHVACStore } from '@/store/hvacStore';
-import * as ImagePicker from 'expo-image-picker';
 import { mockBrands, mockRefrigerants, mockSDS, mockMaterials, Equipment } from '@/constants/hvacData';
 import { Spacing } from '@/constants/theme';
 
