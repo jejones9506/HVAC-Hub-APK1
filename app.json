@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "HVAC Hub",
-    "slug": "hvac-hub",
+    "slug": "hvac-hub-new",
     "version": "1.0.0",
     "description": "The ultimate cross-platform app for HVAC technicians — from apprentices to masters. Equipment database, AI assistant (with verification), calculators, EPA study, walkthroughs, community knowledge, and admin moderation.",
     "orientation": "portrait",
