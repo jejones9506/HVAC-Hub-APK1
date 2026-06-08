@@ -41,15 +41,8 @@ export default function EquipmentHub() {
   const [showQRScanner, setShowQRScanner] = useState(false);
   const [hasCameraPermission, setHasCameraPermission] = useState<boolean | null>(null);
 
-  // New: Visual Search with camera (multiple photos + video) + fuzzy matching
+ // New: Visual Search with camera (multiple photos + video) + fuzzy matching
   const [showVisualSearchModal, setShowVisualSearchModal] = useState(false);
-  const { 
-    visualSearchCaptures, 
-    addVisualCapture, 
-    clearVisualCaptures, 
-    visualSearchResults, 
-    performVisualSearch 
-  } = useHVACStore();
   const [isLoadingList, setIsLoadingList] = useState(false); // Step 16 perf
 
   const filteredEquipment = equipment.filter(eq => {
