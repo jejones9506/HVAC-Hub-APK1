@@ -8,8 +8,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "hvachub",
     "userInterfaceStyle": "automatic",
-    "privacy": "public",
-    "githubUrl": "https://github.com/your-org/hvac-hub",
+"githubUrl": "https://github.com/your-org/hvac-hub",
     "ios": {
       "icon": "./assets/images/icon.png",
       "bundleIdentifier": "com.hvachub.demo",
